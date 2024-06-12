@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehedi Ahamed - An Aspirant Engineer</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Mehedi Ahamed</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="./assets/CV/Mehedi Ahamed CV.pdf" class="btn btn-primary" id="download">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Mehedi's Photo"
+              class="img-cover">
+
+            <!-- <div class="elem elem-1">
+              <p class="elem-title">12</p>
+
+              <p class="elem-text">Years of Success</p>
+            </div> -->
+
+            <div class="elem elem-2">
+              <p class="elem-title">25+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <!-- <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div> -->
+
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Mehedi Ahamed</strong> An Aspirant Engineer
+            </h2>
+
+            <p class="hero-text">
+              I am Mehedi Ahamed, an aspiring engineer currently pursuing my education at the Islamic University of Technology, located in Gazipur, Board Bazar. I am enrolled in the Computer Science and Engineering (CSE) department, where I am actively developing my skills and knowledge in this dynamic field. With a passion for technology and a dedication to my studies, I am on a path to become a promising engineer, ready to make a positive impact in the world.            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Mehedi's Photo"
+              class="img-cover">
+
+            <!-- <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Mehedi's Photo"
+              class="abs-img"> -->
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-python"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+
+            <h2 class="h2 section-title">I Develop Applications that Help People</h2>
+
+            <p class="section-text">
+              My journey in this dynamic field has been marked by a relentless pursuit of knowledge and skill development.
+               I thrive in the ever-evolving world of technology, where I constantly seek new challenges and opportunities to grow.
+               My journey in CSE is not just about academic excellence but also about making a tangible impact on the world through
+                the applications and solutions I develop.
+            </p>
+
+            <p class="section-text">
+              I am a passionate and results-driven software engineer with a deep love for crafting elegant and efficient 
+              solutions to complex problems. My dedication to staying at the forefront of the ever-evolving tech landscape
+               ensures that I can adapt and innovate effectively, making me a valuable asset in any software development team.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+<!-- 
+  - #PORTFOLIO
+-->
+
+<section class="section blog" id="blog">
+  <div class="container">
+
+    <p class="section-subtitle">Portfolio</p>
+
+    <h2 class="h2 section-title">My Amazing Works</h2>
+
+    <p class="section-text">
+      I completed these projects for academic courses and participated in different competitions
+    </p>
+
+    <ul class="blog-list">
+
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner">
+            <a href="#">
+              <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+            </a>
+          </figure>
+
+          <a href="#" class="card-tag">Web Development</a>
+
+          <h3 class="card-title">
+            <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+          </h3>
+
+        </div>
+      </li>
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner">
+            <a href="#">
+              <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+            </a>
+          </figure>
+
+          <a href="#" class="card-tag">Web Development</a>
+
+          <h3 class="card-title">
+            <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+          </h3>
+
+        </div>
+      </li>
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner">
+            <a href="#">
+              <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+            </a>
+          </figure>
+
+          <a href="#" class="card-tag">Web Development</a>
+
+          <h3 class="card-title">
+            <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+          </h3>
+
+        </div>
+      </li>
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner">
+            <a href="#">
+              <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+            </a>
+          </figure>
+
+          <a href="#" class="card-tag">Web Development</a>
+
+          <h3 class="card-title">
+            <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+          </h3>
+
+        </div>
+      </li>
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner">
+            <a href="#">
+              <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+            </a>
+          </figure>
+
+          <a href="#" class="card-tag">Web Development</a>
+
+          <h3 class="card-title">
+            <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+          </h3>
+
+        </div>
+      </li>
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner">
+            <a href="#">
+              <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
+                alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+            </a>
+          </figure>
+
+          <a href="#" class="card-tag">Web Development</a>
+
+          <h3 class="card-title">
+            <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+          </h3>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner">
+            <a href="#">
+              <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
+                alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+            </a>
+          </figure>
+
+          <a href="#" class="card-tag">Web Development</a>
+
+          <h3 class="card-title">
+            <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+          </h3>
+
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+             I try to keep abreast of modern technology
+          </p>
+
+          <ul class="skills-list">
+      
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class=" skills-title">HTML/CSS</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 88%">
+                <h3 class="skills-title">Java</h3>
+
+                <data class="skills-data" value="88">88%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 88%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">C/C++</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 85%">
+                <h3 class="skills-title">React</h3>
+
+                <data class="skills-data" value="85">85%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 85%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">SQL</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">NodeJs</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+   
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Latest News</p>
+
+          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
+
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Web Development</a>
+
+                <h3 class="card-title">
+                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Web Development</a>
+
+                <h3 class="card-title">
+                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Web Development</a>
+
+                <h3 class="card-title">
+                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+     <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+  
+
+              <form action="mailto:adcommerce247@gmail.com" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+                <button type="submit" class="btn-submit">Submit Message</button>
+              </form>
+              
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Dhaka, Bangladesh
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:adcommerce247@gmail.com" class="contact-item-link">adcommerce247@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+8801765929046" class="contact-item-link">+880 176 592 9046</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2023 <a href="#" class="copyright-link">mehediahamed</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Back To Top</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
