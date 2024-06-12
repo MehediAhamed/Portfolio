@@ -1020,3 +1020,33 @@ textarea.contact-input {
   border: 1px solid black;
   background-color: var( --independence)
 }
+
+
+/* Grid Layout for Larger Screens */
+@media (min-width: 600px) {
+  .main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: auto;
+}
+
+#pdf-canvas {
+  width: 50vw;
+  height: auto;
+}
