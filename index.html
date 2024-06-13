@@ -76,6 +76,9 @@
           <li>
             <a href="#myresume" class="navbar-link" data-nav-link>My Resume</a>
           </li>
+
+       
+
           <li>
             <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
           </li>
@@ -504,6 +507,52 @@
     
     
 
+    <section class="section skills" id="certificate">
+      <div class="container">
+
+        <p class="section-subtitle">Certificates & Validations</p>
+
+        <p class="section-text">
+          Specialization Certificates
+        </p>
+
+
+
+        <ul style="display: flex; justify-content: space-around;">
+
+        <li style="padding: 2px;"><a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-devops1?utm_source=linkedin&utm_medium=linkedin&utm_campaign=linkedin_certificate_share&utm_source_page=public_certificate_view&referrer_code=GLIWFP2_YUHFC">Introduction to DevOps
+          <img src="./assets/cetificates/Mehedi Ahamed-DevOps.png" height="200px" width="270px">
+
+        </a></li>
+          
+        <li style="padding: 2px;"><a href="https://www.linkedin.com/in/mehedi-ahamed-17014b21a/">Flutter Development
+          <img src="./assets/cetificates/flutter-workshop.png" height="200px" width="260px">
+
+        </a></li>
+
+        <li style="padding: 2px;"><a href="https://www.linkedin.com/in/mehedi-ahamed-17014b21a/">SPROS India (IRC 2024)
+          <img src="./assets/cetificates/spros.png" height="200px" width="276px">
+
+        </a></li>
+ 
+        </ul>
+
+        <br>
+        <ul style="display: flex; justify-content: space-around;">
+          <li style="padding: 2px;"><a href="https://www.linkedin.com/in/mehedi-ahamed-17014b21a/">Senior Software & Robotics Engineer
+            <img src="./assets/cetificates/erc23-remote.png" height="200px" width="300px">
+
+          </a></li>
+
+          <li style="padding: 2px;"><a href="https://www.linkedin.com/in/mehedi-ahamed-17014b21a/">ERC Space & Robotics Industry Standard
+            <img src="./assets/cetificates/erc23-onsite.png" height="200px" width="300px">
+          </a></li>
+       
+        
+        </ul>
+      </div>
+    </section>
+
 
 
 
@@ -524,13 +573,19 @@
 
 
 
-              <form action="mailto:mehedi47478@gmail.com" method="post" class="contact-form">
+              <!-- <form action="mailto:mehedi47478@gmail.com" method="post" class="contact-form">
                 <input type="text" name="name" placeholder="Name" required class="contact-input">
                 <input type="email" name="email" placeholder="Email" required class="contact-input">
                 <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
                 <button type="submit" class="btn-submit">Submit Message</button>
-              </form>
+              </form> -->
 
+              <form id="contact-form" class="contact-form">
+                <input type="text" name="from_name" placeholder="Name" required class="contact-input">
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+                <button type="submit" class="btn-submit">Submit Message</button>
+              </form>
 
               <ul class="contact-list">
 
@@ -599,7 +654,7 @@
     <div class="container">
 
       <p class="copyright">
-        &copy; 2023 <a href="#" class="copyright-link">mehediahamed</a>. All Rights Reseverd
+        &copy; 2024 <a href="#" class="copyright-link">mehediahamed</a>. All Rights Reseverd
       </p>
 
       <ul class="footer-list">
@@ -629,11 +684,12 @@
   <!-- 
     - custom js link
   -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <script src="./assets/js/config.js"></script>
+
   <script src="./assets/js/script.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.5.207/pdf.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.5.207/pdf.worker.min.js"></script>
   
