@@ -50,7 +50,7 @@ window.addEventListener("scroll", function () {
 
 
 
-const url = './assets/CV/Mehedi Ahamed CV.pdf';
+const url = './assets/CV/Mehedi_Ahamed_Resume_Latex.pdf';
 
 // Asynchronous download of PDF
 const loadingTask = pdfjsLib.getDocument(url);
